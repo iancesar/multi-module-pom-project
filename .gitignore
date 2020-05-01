@@ -1,0 +1,7 @@
+.project
+.settings/
+dtos/.classpath
+persistence/.classpath
+services/.classpath
+utils/.classpath
+webservices/.classpath
