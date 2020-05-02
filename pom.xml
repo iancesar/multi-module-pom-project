@@ -17,13 +17,43 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
+
+		<javaee.api.version>8.0-4</javaee.api.version>
+		<junit.version>4.13</junit.version>
+		<h2database.version>1.4.200</h2database.version>
+		<modelmapper.version>2.3.7</modelmapper.version>
+		<passay.version>1.6.0</passay.version>
+		<hibernate.version>6.0.0.Alpha5</hibernate.version>
+		<apache.commons.lang.verion>3.10</apache.commons.lang.verion>
 	</properties>
 
 	<dependencies>
 		<dependency>
+			<groupId>org.apache.tomee</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>${javaee.api.version}</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.johnzon</groupId>
+			<artifactId>johnzon-mapper</artifactId>
+			<version>1.1.13</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${apache.commons.lang.verion}</version>
+		</dependency>
+
+
+		<!-- Teste -->
+		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>4.11</version>
+			<version>${junit.version}</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>

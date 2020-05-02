@@ -20,6 +20,26 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<artifactId>dtos</artifactId>
+			<groupId>br.com.ian</groupId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<artifactId>persistence</artifactId>
+			<groupId>br.com.ian</groupId>
+			<version>1.0-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>${modelmapper.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.passay</groupId>
+			<artifactId>passay</artifactId>
+			<version>${passay.version}</version>
+		</dependency>
 	</dependencies>
 
 </project>

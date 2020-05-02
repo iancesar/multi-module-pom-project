@@ -5,3 +5,9 @@ persistence/.classpath
 services/.classpath
 utils/.classpath
 webservices/.classpath
+dtos/target/
+utils/.attach_pid14477
+services/target/
+utils/target/
+webservices/target/
+persistence/target/

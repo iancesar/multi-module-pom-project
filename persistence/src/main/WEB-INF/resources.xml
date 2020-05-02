@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<Resource id="h2" type="DataSource">
+		JtaManaged	true
+		JdbcDriver org.h2.Driver
+		JdbcUrl jdbc:h2:mem:test
+		UserName sa
+		Password sa
+		ValidationQuery	select 1		
+	</Resource>
+</resources>
